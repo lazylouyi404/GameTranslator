@@ -1,0 +1,7 @@
+﻿__pycache__/
+debug_log.txt
+dictionary.json
+*.spec
+build/
+dist/
+.env
