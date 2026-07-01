@@ -12,18 +12,10 @@ Aplikasi ini menampilkan hasil terjemahan melalui **overlay transparan**, sehing
   <img src="images/demo.gif" alt="GameTranslator Showcase 1" width="850">
 </p>
 
-<p align="center">
-  <em>Contoh penggunaan GameTranslator untuk menerjemahkan dialog game secara real-time.</em>
-</p>
-
 ---
 
 <p align="center">
   <img src="images/demo2.gif" alt="GameTranslator Showcase 2" width="850">
-</p>
-
-<p align="center">
-  <em>Showcase lain yang memperlihatkan hasil terjemahan menggunakan overlay transparan.</em>
 </p>
 
 ---
