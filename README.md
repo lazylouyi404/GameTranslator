@@ -13,7 +13,9 @@ Pastikan Anda sudah menginstal Python di komputer. Saat proses instalasi Python,
 1. Unduh seluruh folder GameTranslator ke komputer Anda.
 2. Buka folder tersebut, lalu klik kanan di area kosong dan pilih "Open in Terminal" atau "Open PowerShell".
 3. Masukkan perintah berikut dan tekan Enter:
-   pip install -r requirements.txt
+   Masukan perintah berikut dan tekan Enter:
+```bash
+pip install -r requirements.txt
    (Perintah ini akan secara otomatis mengunduh semua alat yang dibutuhkan agar GameTranslator bisa bekerja.)
 
 ### 3. Cara Memulai
