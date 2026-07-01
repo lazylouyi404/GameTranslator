@@ -1,4 +1,4 @@
-﻿# GameTranslator
+# GameTranslator
 
 GameTranslator adalah aplikasi *real-time screen translator* yang dirancang khusus untuk membantu *gamer* PC maupun Handheld menerjemahkan teks dalam game secara instan ke bahasa Indonesia.
 
@@ -25,4 +25,4 @@ Proyek ini dirilis di bawah lisensi **GNU GPL v3**. Anda bebas menggunakan dan m
 
 ## Dukungan
 Jika aplikasi ini membantu pengalaman bermain game Anda, pertimbangkan untuk mendukung pengembangan lebih lanjut melalui:
-* [Link Saweria/Donasi Anda di sini]
+* [https://saweria.co/lazylouyi404](https://saweria.co/lazylouyi404)
