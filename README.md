@@ -1,34 +1,106 @@
 # 🎮 GameTranslator
 
-GameTranslator adalah aplikasi penerjemah otomatis yang membantu Anda memahami dialog atau teks dalam game berbahasa Inggris ke bahasa Indonesia secara instan langsung di layar.
+GameTranslator adalah aplikasi penerjemah otomatis yang membantu menerjemahkan dialog atau teks game berbahasa Inggris ke Bahasa Indonesia secara instan langsung di layar menggunakan OCR.
 
-## 🚀 Cara Menjalankan (Panduan Cepat)
+---
 
-Ikuti langkah-langkah di bawah ini agar GameTranslator bisa berjalan di komputer Anda:
+# 🚀 Cara Menjalankan
 
-### 1. Persiapan Awal
-Pastikan Anda sudah menginstal Python di komputer. Saat proses instalasi Python, pastikan Anda mencentang pilihan "Add Python to PATH" agar GameTranslator bisa berjalan dengan lancar.
+## 1. Persiapan
 
-### 2. Instalasi Pendukung
-1. Unduh seluruh folder GameTranslator ke komputer Anda.
-2. Buka folder tersebut, lalu klik kanan di area kosong dan pilih "Open in Terminal" atau "Open PowerShell".
-3. Masukkan perintah berikut dan tekan Enter:
-   Masukan perintah berikut dan tekan Enter:
+Pastikan **Python** sudah terinstal di komputer Anda.
+
+> **Penting:** Saat menginstal Python, centang opsi **"Add Python to PATH"**.
+
+---
+
+## 2. Instalasi
+
+Unduh atau clone seluruh folder **GameTranslator**.
+
+Buka folder tersebut, lalu buka Terminal atau PowerShell di dalam folder.
+
+Jalankan perintah berikut:
+
 ```bash
 pip install -r requirements.txt
-   (Perintah ini akan secara otomatis mengunduh semua alat yang dibutuhkan agar GameTranslator bisa bekerja.)
+```
 
-### 3. Cara Memulai
-1. Jalankan game Anda dalam mode jendela (windowed mode) agar GameTranslator bisa tampil di atas game.
-2. Di jendela terminal yang sama, ketik perintah berikut untuk memulai GameTranslator:
-   python main.py
-3. Kotak transparan (overlay) akan muncul di layar. Anda bisa menggesernya dengan mouse dan menaruhnya tepat di atas teks game yang ingin diterjemahkan.
+Perintah di atas akan menginstal seluruh library yang dibutuhkan.
 
-## 💡 Tips Penting
-* Jika terjadi error: Pastikan aplikasi Tesseract OCR sudah terinstal di komputer Anda. GameTranslator membutuhkannya untuk "membaca" tulisan di layar.
-* Mengatur Tesseract: Jika GameTranslator tidak jalan, buka file main.py dan pastikan lokasi tesseract.exe sudah sesuai dengan folder instalasi di komputer Anda.
-* Butuh Bantuan: Jika GameTranslator berhenti, buka file debug_log.txt untuk melihat catatan masalah yang terjadi.
+---
 
-## ☕ Dukungan
-Jika GameTranslator membantu pengalaman bermain game Anda, dukung pengembangan lebih lanjut melalui:
-* https://saweria.co/lazylouyi404
+## 3. Menjalankan Aplikasi
+
+Jalankan game dalam **Windowed Mode** (mode jendela).
+
+Kemudian jalankan:
+
+```bash
+python main.py
+```
+
+Setelah aplikasi berjalan, akan muncul **overlay transparan**.
+
+Anda dapat:
+
+- Menggeser overlay menggunakan mouse.
+- Menempatkannya tepat di atas teks game.
+- Teks yang terdeteksi akan diterjemahkan secara otomatis.
+
+---
+
+# 💡 Tips Penting
+
+## Jika terjadi error
+
+Pastikan **Tesseract OCR** sudah terinstal.
+
+GameTranslator menggunakan Tesseract untuk membaca teks pada layar.
+
+---
+
+## Mengatur Lokasi Tesseract
+
+Apabila aplikasi tidak dapat menemukan Tesseract, buka file:
+
+```
+main.py
+```
+
+Kemudian sesuaikan lokasi:
+
+```
+tesseract.exe
+```
+
+dengan folder instalasi Tesseract di komputer Anda.
+
+Contoh:
+
+```
+C:\Program Files\Tesseract-OCR\tesseract.exe
+```
+
+---
+
+## Debug
+
+Jika aplikasi mengalami masalah, buka file:
+
+```
+debug_log.txt
+```
+
+untuk melihat penyebab error.
+
+---
+
+# ☕ Dukungan
+
+Jika GameTranslator membantu pengalaman bermain game Anda, Anda dapat mendukung pengembang melalui Saweria.
+
+**Saweria:**
+https://saweria.co/lazylouyi404
+
+Terima kasih telah menggunakan **GameTranslator** ❤️
