@@ -4,8 +4,10 @@ GameTranslator adalah aplikasi penerjemah otomatis yang menerjemahkan dialog ata
 
 Aplikasi ini menampilkan hasil terjemahan melalui **overlay transparan** sehingga Anda dapat membaca terjemahan tanpa perlu berpindah dari game.
 
+## 🎥 Showcase
+
 <p align="center">
-  <img src="images/demo.gif" alt="GameTranslator Demo" width="850">
+  <img src="images/demo2.gif" alt="GameTranslator Showcase" width="850">
 </p>
 
 ---
@@ -59,7 +61,7 @@ Tunggu hingga seluruh library selesai diinstal.
 
 ## 3. Install Tesseract OCR
 
-Unduh Tesseract OCR:
+Unduh Tesseract OCR melalui:
 
 https://github.com/UB-Mannheim/tesseract/wiki
 
@@ -133,7 +135,7 @@ Coba beberapa hal berikut:
 GameTranslator
 │
 ├── images/
-│   └── demo.gif
+│   └── demo2.gif
 ├── GameTranslator.bat
 ├── main.py
 ├── translator.py
