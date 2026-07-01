@@ -2,12 +2,30 @@
 
 GameTranslator adalah aplikasi penerjemah otomatis yang menerjemahkan dialog atau teks game berbahasa Inggris ke Bahasa Indonesia secara **real-time** menggunakan teknologi **OCR (Optical Character Recognition)**.
 
-Aplikasi ini menampilkan hasil terjemahan melalui **overlay transparan** sehingga Anda dapat membaca terjemahan tanpa perlu berpindah dari game.
+Aplikasi ini menampilkan hasil terjemahan melalui **overlay transparan**, sehingga Anda dapat memahami dialog game tanpa perlu berpindah dari permainan.
 
-## 🎥 Showcase
+---
+
+# 🎥 Showcase
 
 <p align="center">
   <img src="images/demo2.gif" alt="GameTranslator Showcase" width="850">
+</p>
+
+<p align="center">
+  <em>Contoh hasil penerjemahan dialog game secara real-time menggunakan overlay.</em>
+</p>
+
+---
+
+# 🎬 Demo Penggunaan
+
+<p align="center">
+  <img src="images/demo1.gif" alt="GameTranslator Demo" width="850">
+</p>
+
+<p align="center">
+  <em>Cara menggunakan GameTranslator mulai dari menjalankan aplikasi hingga menerjemahkan dialog game.</em>
 </p>
 
 ---
@@ -17,7 +35,7 @@ Aplikasi ini menampilkan hasil terjemahan melalui **overlay transparan** sehingg
 - 🌐 Menerjemahkan teks Inggris ke Bahasa Indonesia secara otomatis.
 - 🖥️ Overlay transparan yang selalu berada di atas game.
 - 🖱️ Area OCR dapat dipindahkan dan diubah ukurannya.
-- ⚡ Proses OCR dan terjemahan secara real-time.
+- ⚡ OCR dan terjemahan berjalan secara real-time.
 - 📖 Cache terjemahan otomatis untuk mempercepat proses.
 - 📝 Debug log untuk mempermudah pencarian masalah.
 
@@ -83,7 +101,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 Jalankan game dalam **Windowed Mode** (mode jendela).
 
-Kemudian buka Terminal pada folder GameTranslator dan jalankan:
+Kemudian buka Terminal pada folder **GameTranslator** dan jalankan:
 
 ```bash
 python main.py
@@ -100,7 +118,7 @@ Setelah berhasil dijalankan:
 
 # 💡 Tips
 
-### Overlay tidak menerjemahkan
+## Overlay tidak menerjemahkan
 
 Pastikan:
 
@@ -108,7 +126,9 @@ Pastikan:
 - Teks pada game terlihat jelas.
 - Tesseract OCR telah terinstal dengan benar.
 
-### Muncul Error
+---
+
+## Muncul Error
 
 Periksa file:
 
@@ -118,7 +138,9 @@ debug_log.txt
 
 File tersebut berisi informasi mengenai error yang terjadi sehingga lebih mudah untuk melakukan troubleshooting.
 
-### Hasil OCR Kurang Akurat
+---
+
+## Hasil OCR Kurang Akurat
 
 Coba beberapa hal berikut:
 
@@ -135,6 +157,7 @@ Coba beberapa hal berikut:
 GameTranslator
 │
 ├── images/
+│   ├── demo1.gif
 │   └── demo2.gif
 ├── GameTranslator.bat
 ├── main.py
@@ -166,6 +189,6 @@ Terima kasih telah menggunakan **GameTranslator** ❤️
 
 # ⭐ Dukung Project Ini
 
-Apabila Anda menyukai project ini, jangan lupa memberikan **⭐ Star** pada repository GitHub agar semakin banyak orang yang dapat menemukan dan menggunakan project ini.
+Apabila Anda menyukai project ini, jangan lupa memberikan **⭐ Star** pada repository GitHub agar semakin banyak orang dapat menemukan dan menggunakan project ini.
 
 Selamat bermain! 🎮
