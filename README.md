@@ -4,6 +4,10 @@ GameTranslator adalah aplikasi penerjemah otomatis yang menerjemahkan dialog ata
 
 Aplikasi ini menampilkan hasil terjemahan melalui **overlay transparan** sehingga Anda dapat membaca terjemahan tanpa perlu berpindah dari game.
 
+<p align="center">
+  <img src="images/demo.gif" alt="GameTranslator Demo" width="850">
+</p>
+
 ---
 
 # ✨ Fitur
@@ -25,7 +29,7 @@ Sebelum menjalankan aplikasi, pastikan komputer Anda telah memiliki:
 - Tesseract OCR
 - Koneksi internet (dibutuhkan saat pertama kali mengunduh model terjemahan)
 
-> **Penting:** Saat menginstal Python, centang **"Add Python to PATH"**.
+> **Penting:** Saat menginstal Python, centang opsi **"Add Python to PATH"**.
 
 ---
 
@@ -37,13 +41,13 @@ Sebelum menjalankan aplikasi, pastikan komputer Anda telah memiliki:
 git clone https://github.com/lazylouyi404/GameTranslator.git
 ```
 
-atau unduh repository dalam format ZIP melalui GitHub.
+Atau unduh repository dalam format **ZIP** melalui GitHub.
 
 ---
 
 ## 2. Install Library Python
 
-Buka Terminal atau PowerShell pada folder GameTranslator, lalu jalankan:
+Buka Terminal atau PowerShell pada folder **GameTranslator**, lalu jalankan:
 
 ```bash
 pip install -r requirements.txt
@@ -102,8 +106,6 @@ Pastikan:
 - Teks pada game terlihat jelas.
 - Tesseract OCR telah terinstal dengan benar.
 
----
-
 ### Muncul Error
 
 Periksa file:
@@ -114,15 +116,14 @@ debug_log.txt
 
 File tersebut berisi informasi mengenai error yang terjadi sehingga lebih mudah untuk melakukan troubleshooting.
 
----
-
 ### Hasil OCR Kurang Akurat
 
-Coba:
+Coba beberapa hal berikut:
 
 - Perbesar ukuran area OCR.
 - Gunakan resolusi game yang lebih tinggi.
 - Pastikan teks tidak tertutup objek lain.
+- Hindari teks yang terlalu buram atau bergerak terlalu cepat.
 
 ---
 
@@ -131,6 +132,8 @@ Coba:
 ```text
 GameTranslator
 │
+├── images/
+│   └── demo.gif
 ├── GameTranslator.bat
 ├── main.py
 ├── translator.py
@@ -151,16 +154,16 @@ GameTranslator
 
 Jika GameTranslator membantu pengalaman bermain game Anda, Anda dapat mendukung pengembangan project ini melalui Saweria.
 
-👉 https://saweria.co/lazylouyi404
+👉 **https://saweria.co/lazylouyi404**
 
 Setiap dukungan yang diberikan akan sangat membantu pengembangan GameTranslator ke depannya.
 
-Terima kasih! ❤️
+Terima kasih telah menggunakan **GameTranslator** ❤️
 
 ---
 
 # ⭐ Dukung Project Ini
 
-Apabila Anda menyukai project ini, jangan lupa untuk memberikan **⭐ Star** pada repository GitHub agar semakin banyak orang yang dapat menemukannya.
+Apabila Anda menyukai project ini, jangan lupa memberikan **⭐ Star** pada repository GitHub agar semakin banyak orang yang dapat menemukan dan menggunakan project ini.
 
 Selamat bermain! 🎮
