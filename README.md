@@ -9,23 +9,21 @@ Aplikasi ini menampilkan hasil terjemahan melalui **overlay transparan**, sehing
 # 🎥 Showcase
 
 <p align="center">
-  <img src="images/demo2.gif" alt="GameTranslator Showcase" width="850">
+  <img src="images/demo.gif" alt="GameTranslator Showcase 1" width="850">
 </p>
 
 <p align="center">
-  <em>Contoh hasil penerjemahan dialog game secara real-time menggunakan overlay.</em>
+  <em>Contoh penggunaan GameTranslator untuk menerjemahkan dialog game secara real-time.</em>
 </p>
 
 ---
 
-# 🎬 Demo Penggunaan
-
 <p align="center">
-  <img src="images/demo1.gif" alt="GameTranslator Demo" width="850">
+  <img src="images/demo2.gif" alt="GameTranslator Showcase 2" width="850">
 </p>
 
 <p align="center">
-  <em>Cara menggunakan GameTranslator mulai dari menjalankan aplikasi hingga menerjemahkan dialog game.</em>
+  <em>Showcase lain yang memperlihatkan hasil terjemahan menggunakan overlay transparan.</em>
 </p>
 
 ---
@@ -55,7 +53,7 @@ Sebelum menjalankan aplikasi, pastikan komputer Anda telah memiliki:
 
 # 🚀 Instalasi
 
-## 1. Clone atau Download Repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/lazylouyi404/GameTranslator.git
@@ -157,7 +155,7 @@ Coba beberapa hal berikut:
 GameTranslator
 │
 ├── images/
-│   ├── demo1.gif
+│   ├── demo.gif
 │   └── demo2.gif
 ├── GameTranslator.bat
 ├── main.py
@@ -191,4 +189,4 @@ Terima kasih telah menggunakan **GameTranslator** ❤️
 
 Apabila Anda menyukai project ini, jangan lupa memberikan **⭐ Star** pada repository GitHub agar semakin banyak orang dapat menemukan dan menggunakan project ini.
 
-Selamat bermain! 🎮
+Semoga GameTranslator dapat membantu pengalaman bermain game Anda! 🎮
